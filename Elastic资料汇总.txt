@@ -1,0 +1,8 @@
+Elastic Client官方文档  
+https://www.elastic.co/guide/en/elasticsearch/client/net-api/current/index.html
+
+部分官方教程中文译文
+http://blog.csdn.net/dm_vincent/article/category/2718099
+
+Elasticsearch权威指南（中文版）
+http://es.xiaoleilu.com/

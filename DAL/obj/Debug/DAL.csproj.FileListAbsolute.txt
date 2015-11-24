@@ -1,0 +1,17 @@
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\DAL.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\DAL.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\common.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Elasticsearch.Net.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Model.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Nest.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Newtonsoft.Json.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\common.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Model.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Elasticsearch.Net.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Elasticsearch.Net.xml
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Nest.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Nest.xml
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\bin\Debug\Newtonsoft.Json.xml
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\obj\Debug\DAL.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\DAL\obj\Debug\DAL.pdb

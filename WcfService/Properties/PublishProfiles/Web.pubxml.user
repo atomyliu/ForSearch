@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\liusong\Desktop\eswcf</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AutoKeyWordServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="bin/common.dll">
+      <publishTime>09/24/2015 08:13:15</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>09/24/2015 08:13:16</publishTime>
+    </File>
+    <File Include="bin/Elasticsearch.Net.dll">
+      <publishTime>09/01/2015 17:30:15</publishTime>
+    </File>
+    <File Include="bin/GZipEncoder.dll">
+      <publishTime>03/22/2010 10:31:46</publishTime>
+    </File>
+    <File Include="bin/Model.dll">
+      <publishTime>09/24/2015 08:13:15</publishTime>
+    </File>
+    <File Include="bin/Nest.dll">
+      <publishTime>09/01/2015 17:30:18</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="bin/Service.dll">
+      <publishTime>09/24/2015 08:13:16</publishTime>
+    </File>
+    <File Include="bin/WcfService.dll">
+      <publishTime>09/24/2015 08:13:17</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="Index.html">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/bootstrap/bootstrap.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/bootstrap/bootstrap.min.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/bootstrap/npm.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/jquery/jquery-1.11.0.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/jquery/jquery-1.11.0.min.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/jquery/jquery-1.11.0.min.map">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="json/newsbase_data.json">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="json/newsbase_mapping.json">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="json/newsbase_setting.json">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="MemberByTrackServ.svc">
+      <publishTime>09/15/2015 08:35:57</publishTime>
+    </File>
+    <File Include="MemberContactServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="MemberGenServ.svc">
+      <publishTime>09/02/2015 08:22:53</publishTime>
+    </File>
+    <File Include="MemberServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="MemberTrackServ.svc">
+      <publishTime>09/07/2015 10:59:38</publishTime>
+    </File>
+    <File Include="NewsBaseServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="SmsClassServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/bootstrap/bootstrap-theme.css">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/bootstrap/bootstrap-theme.css.map">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/bootstrap/bootstrap-theme.min.css">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/bootstrap/bootstrap.css">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/bootstrap/bootstrap.css.map">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/bootstrap/bootstrap.min.css">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/page.css">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="style/shCoreDark.css">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="VCommonProductServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="VSmsClassServ.svc">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/21/2015 08:53:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,160 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{5F5DD4A8-06D0-4D10-A01C-B519C50C938D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{7AD0FC45-775F-434B-87A8-BB6D44AB32B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{A6D3B9E6-FC85-4AAE-B77B-5ED9323F92AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{885FB090-87FF-411E-AECE-3887E48F182B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{C05E7D8C-DE95-4545-BA80-71F04C3701A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService", "WcfService\WcfService.csproj", "{B433F6AF-9260-4D19-A930-3E25F6384895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictWebAPI", "DictWebAPI\DictWebAPI.csproj", "{E00E917D-BBB5-4DFC-A30C-047205EDC52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{A5C78BA2-BEA4-4C60-818C-89CDDE368134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAndLoadTestProject", "WebAndLoadTestProject\WebAndLoadTestProject.csproj", "{E82D1F9C-085D-4DBD-B56B-86EDAE14E93C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D0CF365-1891-47AA-968D-B8955D2CEE40}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestProject", "TestProject", "{D7624637-CEC0-4045-B02D-0E4187C7B4AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "项目文档", "项目文档", "{7FB45DBF-2216-4139-AC9F-E8787AC5C7B1}"
+	ProjectSection(SolutionItems) = preProject
+		Elastic资料汇总.txt = Elastic资料汇总.txt
+		项目文档\第一阶段总结说明.txt = 项目文档\第一阶段总结说明.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESWebAPI", "ESWebAPI\ESWebAPI.csproj", "{0EDC5EEA-B8C6-428E-B0F9-67E3B3A01BC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESWebAPI.Tests", "ESWebAPI.Tests\ESWebAPI.Tests.csproj", "{78743C93-8868-4E9B-9307-2A868E25F055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClient", "WebApiClient\WebApiClient.csproj", "{BC1DD818-63DF-452E-92A5-B3EF6DF12722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elasticsearch-Finger", "Elasticsearch-Finger\Elasticsearch-Finger.csproj", "{69E70D52-0601-4ED8-8F07-C58EBEF11825}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F5DD4A8-06D0-4D10-A01C-B519C50C938D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5DD4A8-06D0-4D10-A01C-B519C50C938D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5DD4A8-06D0-4D10-A01C-B519C50C938D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5DD4A8-06D0-4D10-A01C-B519C50C938D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD0FC45-775F-434B-87A8-BB6D44AB32B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD0FC45-775F-434B-87A8-BB6D44AB32B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD0FC45-775F-434B-87A8-BB6D44AB32B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD0FC45-775F-434B-87A8-BB6D44AB32B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D3B9E6-FC85-4AAE-B77B-5ED9323F92AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D3B9E6-FC85-4AAE-B77B-5ED9323F92AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D3B9E6-FC85-4AAE-B77B-5ED9323F92AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D3B9E6-FC85-4AAE-B77B-5ED9323F92AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885FB090-87FF-411E-AECE-3887E48F182B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885FB090-87FF-411E-AECE-3887E48F182B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885FB090-87FF-411E-AECE-3887E48F182B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885FB090-87FF-411E-AECE-3887E48F182B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05E7D8C-DE95-4545-BA80-71F04C3701A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05E7D8C-DE95-4545-BA80-71F04C3701A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05E7D8C-DE95-4545-BA80-71F04C3701A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05E7D8C-DE95-4545-BA80-71F04C3701A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B433F6AF-9260-4D19-A930-3E25F6384895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B433F6AF-9260-4D19-A930-3E25F6384895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B433F6AF-9260-4D19-A930-3E25F6384895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B433F6AF-9260-4D19-A930-3E25F6384895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E00E917D-BBB5-4DFC-A30C-047205EDC52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00E917D-BBB5-4DFC-A30C-047205EDC52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00E917D-BBB5-4DFC-A30C-047205EDC52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00E917D-BBB5-4DFC-A30C-047205EDC52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C78BA2-BEA4-4C60-818C-89CDDE368134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C78BA2-BEA4-4C60-818C-89CDDE368134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C78BA2-BEA4-4C60-818C-89CDDE368134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C78BA2-BEA4-4C60-818C-89CDDE368134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82D1F9C-085D-4DBD-B56B-86EDAE14E93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82D1F9C-085D-4DBD-B56B-86EDAE14E93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82D1F9C-085D-4DBD-B56B-86EDAE14E93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82D1F9C-085D-4DBD-B56B-86EDAE14E93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EDC5EEA-B8C6-428E-B0F9-67E3B3A01BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDC5EEA-B8C6-428E-B0F9-67E3B3A01BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDC5EEA-B8C6-428E-B0F9-67E3B3A01BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDC5EEA-B8C6-428E-B0F9-67E3B3A01BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78743C93-8868-4E9B-9307-2A868E25F055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78743C93-8868-4E9B-9307-2A868E25F055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78743C93-8868-4E9B-9307-2A868E25F055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78743C93-8868-4E9B-9307-2A868E25F055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1DD818-63DF-452E-92A5-B3EF6DF12722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1DD818-63DF-452E-92A5-B3EF6DF12722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1DD818-63DF-452E-92A5-B3EF6DF12722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1DD818-63DF-452E-92A5-B3EF6DF12722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5C78BA2-BEA4-4C60-818C-89CDDE368134} = {D7624637-CEC0-4045-B02D-0E4187C7B4AD}
+		{E82D1F9C-085D-4DBD-B56B-86EDAE14E93C} = {D7624637-CEC0-4045-B02D-0E4187C7B4AD}
+		{78743C93-8868-4E9B-9307-2A868E25F055} = {D7624637-CEC0-4045-B02D-0E4187C7B4AD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.7.50:8080/tfs/tech
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = common\\common.csproj
+		SccProjectName1 = common
+		SccLocalPath1 = common
+		SccProjectUniqueName2 = Model\\Model.csproj
+		SccProjectName2 = Model
+		SccLocalPath2 = Model
+		SccProjectUniqueName3 = DAL\\DAL.csproj
+		SccProjectName3 = DAL
+		SccLocalPath3 = DAL
+		SccProjectUniqueName4 = Service\\Service.csproj
+		SccProjectName4 = Service
+		SccLocalPath4 = Service
+		SccProjectUniqueName5 = WcfService\\WcfService.csproj
+		SccProjectName5 = WcfService
+		SccLocalPath5 = WcfService
+		SccProjectUniqueName6 = DictWebAPI\\DictWebAPI.csproj
+		SccProjectName6 = DictWebAPI
+		SccLocalPath6 = DictWebAPI
+		SccProjectUniqueName7 = WebApp\\WebApp.csproj
+		SccProjectName7 = WebApp
+		SccLocalPath7 = WebApp
+		SccProjectUniqueName8 = UnitTestProject\\UnitTestProject.csproj
+		SccProjectTopLevelParentUniqueName8 = ForSearch_v1.0.sln
+		SccProjectName8 = UnitTestProject
+		SccLocalPath8 = UnitTestProject
+		SccProjectUniqueName9 = WebAndLoadTestProject\\WebAndLoadTestProject.csproj
+		SccProjectTopLevelParentUniqueName9 = ForSearch_v1.0.sln
+		SccProjectName9 = WebAndLoadTestProject
+		SccLocalPath9 = WebAndLoadTestProject
+		SccProjectUniqueName10 = ESWebAPI\\ESWebAPI.csproj
+		SccProjectName10 = ESWebAPI
+		SccLocalPath10 = ESWebAPI
+		SccProjectUniqueName11 = ESWebAPI.Tests\\ESWebAPI.Tests.csproj
+		SccProjectTopLevelParentUniqueName11 = ForSearch_v1.0.sln
+		SccProjectName11 = ESWebAPI.Tests
+		SccLocalPath11 = ESWebAPI.Tests
+		SccProjectUniqueName12 = WebApiClient\\WebApiClient.csproj
+		SccProjectName12 = WebApiClient
+		SccLocalPath12 = WebApiClient
+		SccProjectUniqueName13 = Elasticsearch-Finger\\Elasticsearch-Finger.csproj
+		SccProjectName13 = Elasticsearch-Finger
+		SccLocalPath13 = Elasticsearch-Finger
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="401db651-5d6d-43ea-bbfe-eca88f82ea7c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://eswcf.test.sci99.com/AutoKeyWordServ.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AutoKeyWordServ.wsdl" MetadataType="Wsdl" ID="e32bba91-6faa-4c16-a355-49e7a3ffba25" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/AutoKeyWordServ.svc?wsdl" />
+    <MetadataFile FileName="AutoKeyWordServ.xsd" MetadataType="Schema" ID="f9499f35-64da-41e8-b39f-447869af9b41" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/AutoKeyWordServ.svc?xsd=xsd1" />
+    <MetadataFile FileName="AutoKeyWordServ1.xsd" MetadataType="Schema" ID="333a401a-0882-4a7d-ba9f-5f6d98bee54f" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/AutoKeyWordServ.svc?xsd=xsd2" />
+    <MetadataFile FileName="AutoKeyWordServ2.xsd" MetadataType="Schema" ID="789f6f76-80e3-46f5-b6a2-f573dcfcb635" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/AutoKeyWordServ.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

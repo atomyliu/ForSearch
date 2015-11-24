@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\users\liusong.sci99\Desktop\newses</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin/Default.aspx">
+      <publishTime>09/18/2015 11:34:25</publishTime>
+    </File>
+    <File Include="ascx/memPager.ascx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="ascx/pager.ascx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="ashx/AutoKeyWordHandler.ashx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="bin/common.dll">
+      <publishTime>11/23/2015 13:37:05</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>11/23/2015 13:37:05</publishTime>
+    </File>
+    <File Include="bin/Elasticsearch.Net.dll">
+      <publishTime>09/01/2015 17:30:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/Model.dll">
+      <publishTime>11/23/2015 13:37:04</publishTime>
+    </File>
+    <File Include="bin/Nest.dll">
+      <publishTime>09/01/2015 17:30:18</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/01/2015 17:30:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/01/2015 17:30:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/01/2015 17:30:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/01/2015 17:30:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/01/2015 17:30:17</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/01/2015 17:30:17</publishTime>
+    </File>
+    <File Include="bin/Service.dll">
+      <publishTime>11/23/2015 13:37:06</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/01/2015 17:30:16</publishTime>
+    </File>
+    <File Include="bin/WcfService.dll">
+      <publishTime>11/23/2015 13:37:06</publishTime>
+    </File>
+    <File Include="bin/WebApp.dll">
+      <publishTime>11/23/2015 13:37:08</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>09/24/2015 13:55:19</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>09/24/2015 13:55:19</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>09/24/2015 13:55:19</publishTime>
+    </File>
+    <File Include="Content.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="crm/Member.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/23/2015 13:35:36</publishTime>
+    </File>
+    <File Include="dict/Default.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="dict/sougou.dic">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="dict/updict.dic">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/17/2015 11:01:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/17/2015 11:01:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/17/2015 11:01:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/17/2015 11:01:58</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/17/2015 11:01:58</publishTime>
+    </File>
+    <File Include="img/button_bg.png">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="img/logo.jpg">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="img/search-icon.png">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/baiduAutoComplete.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>09/17/2015 11:02:08</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>09/17/2015 11:02:08</publishTime>
+    </File>
+    <File Include="js/highlight.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/jquery-1.11.3.min.js">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="js/jquery.ui.autocomplete.html.js">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="js/npm.js">
+      <publishTime>09/17/2015 11:02:08</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>09/17/2015 13:36:56</publishTime>
+    </File>
+    <File Include="Member.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="news/Content.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="news/Default.aspx">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="news/test.aspx">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="Properties/DataSources/Model.KeyWords.datasource">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="Properties/DataSources/Model.Member.datasource">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="Properties/DataSources/Model.MemberContact.datasource">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="Properties/DataSources/Model.NewsBase.datasource">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="Properties/DataSources/Model.VSmsClass.datasource">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="style/bootstrap-theme.css">
+      <publishTime>06/16/2015 16:12:48</publishTime>
+    </File>
+    <File Include="style/bootstrap-theme.css.map">
+      <publishTime>06/16/2015 16:12:48</publishTime>
+    </File>
+    <File Include="style/bootstrap-theme.min.css">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="style/bootstrap.css">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="style/bootstrap.css.map">
+      <publishTime>06/16/2015 16:12:48</publishTime>
+    </File>
+    <File Include="style/bootstrap.min.css">
+      <publishTime>06/16/2015 16:12:50</publishTime>
+    </File>
+    <File Include="style/dashboard.css">
+      <publishTime>09/18/2015 10:30:31</publishTime>
+    </File>
+    <File Include="style/jquery-ui.css">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="style/jquery-ui.theme.css">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="style/member.css">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="style/page.css">
+      <publishTime>09/01/2015 17:30:20</publishTime>
+    </File>
+    <File Include="style/signin.css">
+      <publishTime>09/17/2015 13:36:26</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="WcfTest.aspx">
+      <publishTime>09/01/2015 17:30:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/10/2015 11:53:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+﻿{
+    "type": "jdbc",
+    "jdbc": {
+    "url": "jdbc:sqlserver://192.168.7.45:1433;databaseName=SCI_News",
+    "user": "admin",
+    "password": "hot99123",
+    "sql": [
+        {
+        "statement": "select newsid as _id,newsid,title,content,? as rivtime,CONVERT(varchar(23),createon,121) as ct from NewsBase",
+        "parameter": [
+        "$river.state.last_active_begin"
+        ]
+        }
+    ],
+    "index": "sci_news",
+    "type": "newsbase"
+    }
+}

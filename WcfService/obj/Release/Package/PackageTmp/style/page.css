@@ -1,0 +1,39 @@
+﻿body {
+    background: #fff;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height:45px;
+    line-height: 48px;
+    background-color:#003366;
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    padding-left: 15px;
+}
+.wcfurl {
+    font-size:14px;
+    padding-left: 15px;
+}
+.c_i1 {
+    width:1000px;
+    font-size:14px;
+    padding-left: 15px;
+}
+.c_i2 {
+    width:1000px;
+    font-size:14px;
+    padding-left: 15px;
+}
+.c_memo {
+    font-size:14px;
+    color:red;
+    padding-left: 15px;
+    width:1000px;
+}
+.foot {
+    height:50px;
+    padding-left: 15px;
+}

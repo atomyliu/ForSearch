@@ -1,0 +1,15 @@
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\common.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\common.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Elasticsearch.Net.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Nest.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Newtonsoft.Json.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Elasticsearch.Net.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Elasticsearch.Net.xml
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Nest.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Nest.xml
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\obj\Release\common.csprojResolveAssemblyReference.cache
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\obj\Release\common.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\obj\Release\common.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Newtonsoft.Json.xml
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Model.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\common\bin\Release\Model.pdb

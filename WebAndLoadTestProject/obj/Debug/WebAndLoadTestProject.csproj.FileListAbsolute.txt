@@ -1,0 +1,8 @@
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\bin\Debug\WebTest1.webtest
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\bin\Debug\WebAndLoadTestProject.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\bin\Debug\WebAndLoadTestProject.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.WebTestFramework.resources.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebAndLoadTestProject\obj\Debug\WebAndLoadTestProject.csprojResolveAssemblyReference.cache

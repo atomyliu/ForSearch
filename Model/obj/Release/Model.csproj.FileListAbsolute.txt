@@ -1,0 +1,5 @@
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\bin\Release\Model.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\bin\Release\Model.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\obj\Release\Model.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\obj\Release\Model.pdb
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\obj\Release\Model.csprojResolveAssemblyReference.cache

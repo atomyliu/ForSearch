@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a6289f44-14e8-4a5c-9cb5-5baf6c063fac" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://eswcf.test.sci99.com/MemberContactServ.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MemberContactServ.wsdl" MetadataType="Wsdl" ID="6e3794ed-928e-45d1-aef9-4d26f8ab9a1b" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/MemberContactServ.svc?wsdl" />
+    <MetadataFile FileName="MemberContactServ.xsd" MetadataType="Schema" ID="4b90281e-4eb8-4371-a47b-3c0eea2e4b7b" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/MemberContactServ.svc?xsd=xsd0" />
+    <MetadataFile FileName="MemberContactServ1.xsd" MetadataType="Schema" ID="a490c3e6-0fe5-4959-b264-066c2878df81" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/MemberContactServ.svc?xsd=xsd1" />
+    <MetadataFile FileName="MemberContactServ2.xsd" MetadataType="Schema" ID="c4af022d-43fa-43c4-beb8-ecfcc747dc1a" SourceId="1" SourceUrl="http://eswcf.test.sci99.com/MemberContactServ.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
