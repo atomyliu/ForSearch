@@ -38,7 +38,7 @@ namespace DAL.Implement
             List<QueryContainer> mustquerys = new List<QueryContainer>(); 
             //should
             List<QueryContainer> shouldquerys = new List<QueryContainer>();
-
+            //对组合字段进行查询
             foreach (string keyword in sc.keywords)
             {
                 #region 拼音 或 中文查询
@@ -50,10 +50,9 @@ namespace DAL.Implement
                 shouldQueryP.Add(shouldQueryPY);
                 QueryContainer bQuery = new BoolQuery() {  Should= shouldQueryP };
                 #endregion
-                //QueryContainer query = new WildcardQuery() { Field = "fields_query", Value = string.Format("*{0}*", keyword) };  //通配符模糊查询
                 mustquerys.Add(bQuery);
             }
-            
+            //添加typename字段查询，如果为空则不添加，不为空时增加对typename字段条件查询。
             if (sc.typenames==null)
             {
                 boolQuery = new BoolQuery() { Must = mustquerys };
@@ -65,8 +64,6 @@ namespace DAL.Implement
                 {
                     QueryContainer squyers = new TermQuery() { Field = "typename", Value = _typename };
                     shouldquerys.Add(squyers);
-                    //QueryContainer mquery = new TermQuery() { Field = "typename", Value = _typename };
-                    //mustquerys.Add(mquery);
                 }
                 booltQuery = new BoolQuery() { Should = shouldquerys };
                 mustquerys.Add(booltQuery);

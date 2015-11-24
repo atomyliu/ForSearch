@@ -32,6 +32,7 @@ namespace Model
         private string _parentid;
         private string _thetype;
         private string _bigtype;
+        private string _productclassinfo;
 
         public int Pid
         {
@@ -342,6 +343,19 @@ namespace Model
             set
             {
                 _bigtype = value;
+            }
+        }
+
+        public string Productclassinfo
+        {
+            get
+            {
+                return _productclassinfo;
+            }
+
+            set
+            {
+                _productclassinfo = value;
             }
         }
     }

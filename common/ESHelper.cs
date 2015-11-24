@@ -76,10 +76,42 @@ namespace common
             return count;
         }
 
-        public static int DeleteIndex()
+        public  static bool Delete(string node,string index, string type ,string id)
         {
-            int count = 0;
-            return count;
+            bool deleteed = false;
+            try
+            {
+                var result = Client(node).Delete(new DeleteRequest(index, type, id));
+                deleteed = result.Found;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return deleteed;
+        }
+        /// <summary>
+        /// 删除doc
+        /// </summary>
+        /// <param name="index"></param>
+        /// <param name="type"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public static bool Delete( string index, string type, string id)
+        {
+            bool deleteed = false;
+            try
+            {
+                var result = Client().Delete(new DeleteRequest(index, type, id));
+                deleteed = result.Found;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return deleteed;
         }
 
         public static string GetIndex()

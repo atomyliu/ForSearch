@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implement\CommProductDal.cs" />
+    <Compile Include="Implement\DELETEDal.cs" />
     <Compile Include="Implement\KeyWordsDal.cs" />
     <Compile Include="Implement\MemberContactDal.cs" />
     <Compile Include="Implement\MemberDal.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Implement\VCommonProductDal.cs" />
     <Compile Include="Implement\VSmsClassDal.cs" />
     <Compile Include="Interface\ICommProductDal.cs" />
+    <Compile Include="Interface\IDELETEDal.cs" />
     <Compile Include="Interface\IKeyWordsDal.cs" />
     <Compile Include="Interface\IMemberContactDal.cs" />
     <Compile Include="Interface\IMemberDal.cs" />
