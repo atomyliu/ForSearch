@@ -41,3 +41,5 @@ E:\ElasticSearch\ForSearch\ForSearch_v1.0\ESWebAPI\bin\zh-Hans\System.Web.Http.W
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\ESWebAPI\obj\Debug\ESWebAPI.dll
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\ESWebAPI\obj\Debug\ESWebAPI.pdb
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\ESWebAPI\obj\Debug\ESWebAPI.csprojResolveAssemblyReference.cache
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\ESWebAPI\bin\Factory.dll
+E:\ElasticSearch\ForSearch\ForSearch_v1.0\ESWebAPI\bin\Factory.pdb

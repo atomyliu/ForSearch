@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClient", "WebApiClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elasticsearch-Finger", "Elasticsearch-Finger\Elasticsearch-Finger.csproj", "{69E70D52-0601-4ED8-8F07-C58EBEF11825}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{3F70E48D-2E6D-47AE-8DBE-2992A896D8B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69E70D52-0601-4ED8-8F07-C58EBEF11825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F70E48D-2E6D-47AE-8DBE-2992A896D8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F70E48D-2E6D-47AE-8DBE-2992A896D8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F70E48D-2E6D-47AE-8DBE-2992A896D8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F70E48D-2E6D-47AE-8DBE-2992A896D8B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,7 +116,7 @@ Global
 		{78743C93-8868-4E9B-9307-2A868E25F055} = {D7624637-CEC0-4045-B02D-0E4187C7B4AD}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 14
+		SccNumberOfProjects = 15
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = http://192.168.7.50:8080/tfs/tech
 		SccLocalPath0 = .
@@ -156,5 +162,8 @@ Global
 		SccProjectUniqueName13 = Elasticsearch-Finger\\Elasticsearch-Finger.csproj
 		SccProjectName13 = Elasticsearch-Finger
 		SccLocalPath13 = Elasticsearch-Finger
+		SccProjectUniqueName14 = Factory\\Factory.csproj
+		SccProjectName14 = Factory
+		SccLocalPath14 = Factory
 	EndGlobalSection
 EndGlobal

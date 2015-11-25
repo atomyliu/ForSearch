@@ -94,6 +94,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CommProductController.cs" />
+    <Compile Include="Controllers\DeleteController.cs" />
     <Compile Include="Controllers\MemberController.cs" />
     <Compile Include="Controllers\TXLController.cs" />
     <Compile Include="Global.asax.cs">
@@ -123,6 +124,10 @@
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{a6d3b9e6-fc85-4aae-b77b-5ed9323f92aa}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{3f70e48d-2e6d-47ae-8dbe-2992a896d8b9}</Project>
+      <Name>Factory</Name>
     </ProjectReference>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{885fb090-87ff-411e-aece-3887e48f182b}</Project>

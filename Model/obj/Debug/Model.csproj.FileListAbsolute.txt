@@ -2,4 +2,3 @@ E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\bin\Debug\Model.dll
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\bin\Debug\Model.pdb
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\obj\Debug\Model.dll
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\obj\Debug\Model.pdb
-E:\ElasticSearch\ForSearch\ForSearch_v1.0\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

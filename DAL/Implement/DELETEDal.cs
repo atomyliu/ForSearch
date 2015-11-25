@@ -1,4 +1,5 @@
-﻿using DAL.Interface;
+﻿using common;
+using DAL.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,17 @@ namespace DAL.Implement
 {
     public class DELETEDal : IDELETEDal
     {
-        public void DELETE(string index, string type, string field, string query)
+        public class DeleteCondition
         {
-            throw new NotImplementedException();
+            public string index { get; set; }
+            public string type { get; set; }
+            //public string field { get; set; }
+            //public string query { get; set; }
+            public string id { get; set; }
+        }
+        public bool DELETE(DeleteCondition dc)
+        {
+            return ESHelper.Delete(dc.index,dc.type,dc.id);
         }
     }
 }

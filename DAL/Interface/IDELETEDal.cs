@@ -8,6 +8,6 @@ namespace DAL.Interface
 {
     public interface IDELETEDal
     {
-        void DELETE(string index,string type,string field,string query);
+        bool DELETE(Implement.DELETEDal.DeleteCondition dc);
     }
 }

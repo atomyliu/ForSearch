@@ -57,4 +57,3 @@ E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebApiClient\bin\Microsoft.CodeDom.Pro
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebApiClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebApiClient\obj\Debug\WebApiClient.dll
 E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebApiClient\obj\Debug\WebApiClient.pdb
-E:\ElasticSearch\ForSearch\ForSearch_v1.0\WebApiClient\obj\Debug\WebApiClient.csprojResolveAssemblyReference.cache
